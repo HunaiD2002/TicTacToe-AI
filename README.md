@@ -32,7 +32,7 @@ python generate_dataset.py
 ```
 
 
-*Output: Saves `resource/full_dataset.arff` 
+*Output: Saves `resource/full_dataset.arff`*
 
 ### Step 2: Train the "Brain"
 Train the Neural Network using the generated data.
