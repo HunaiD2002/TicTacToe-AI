@@ -14,7 +14,7 @@ An advanced Tic-Tac-Toe agent built with **Python** and **PyTorch**. This projec
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/HunaiD2002/TicTacToe-AI.git] (https://github.com/YOUR_USERNAME/TicTacToe-AI.git)
+    git clone https://github.com/HunaiD2002/TicTacToe-AI.git
     cd TicTacToe-AI
     ```
 
