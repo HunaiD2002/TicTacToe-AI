@@ -30,6 +30,7 @@ Instead of using a limited dataset, run this script to generate a perfect datase
 ```bash
 python generate_dataset.py```
 
+
 *Output: Saves `resource/full_dataset.arff` 
 
 ### Step 2: Train the "Brain"
@@ -37,12 +38,14 @@ Train the Neural Network using the generated data.
 ```bash
 python3 -m agent.trainer --data resource/full_dataset.arff --out resource/model.pt --epochs 100```
 
+
 *Output: Saves the trained model to `resource/model.pt`*
 
 ### Step 3: Play the Game
 Launch the Graphical User Interface (GUI) to play.
 ```bash
 python3 main.py```
+
 
 **Important:** Once the game opens, click the **"Load Model"** button and select the `resource/model.pt` file to activate the AI.
 
